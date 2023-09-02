@@ -40,10 +40,9 @@ extension URLSession: NETCRequestLoader {
 /// Extension of `URLSession` to provide a method for loading data from a URL.
 ///
 /// This extension is deprecated in macOS 12.0 and iOS 15.0. It is recommended to use the built-in API instead.
-@available(macOS, deprecated: 12.0, message: "Use the built-in API instead")
-@available(iOS, deprecated: 15.0, message: "Use the built-in API instead")
+@available(macOS 10.15, *)
+@available(iOS 13.0.0, *)
 extension URLSession {
-    @available(macOS 10.15, *)
     /// Loads data from a URL.
     ///
     /// - Parameters:
