@@ -21,6 +21,7 @@ where N: Decodable, E: LocalizedError & Decodable & Equatable
 /// `NETCClient` is a generic struct that can be used to make network requests and handle the response.
 ///
 /// - Since: macOS 10.15
+@available(iOS 13.0, *)
 @available(macOS 10.15, *)
 public struct NETCClient<N, E> where N: Decodable, E: LocalizedError & Decodable & Equatable {
 

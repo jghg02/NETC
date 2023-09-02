@@ -8,6 +8,7 @@
 import Foundation
 
 @available(macOS 10.15, *)
+@available(iOS 13.0, *)
 /// NETCConfig is an enum that holds the configuration for the network client.
 public enum NETCConfig {
     /// The strategy to use for automatically changing the value of keys before decoding.
