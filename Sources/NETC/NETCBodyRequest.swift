@@ -14,6 +14,7 @@ import Foundation
 ///
 /// - Since: macOS 10.15
 @available(macOS 10.15, *)
+@available(iOS 13.0, *)
 public class NETCBodyRequest<N: Encodable>: NETCRequest {
 
     /// Initializes a new `NETCBodyRequest` instance.
